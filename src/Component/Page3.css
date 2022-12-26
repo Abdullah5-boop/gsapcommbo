@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containers {
+    /* background-color: aqua; */
+
+
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.herocontent p {
+    width: 500px;
+}
+
+.imgcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    height: 90vh;
+    position: relative;
+}
+
+.img-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.boy1{
+    position:absolute;
+    width: 45%;
+    height: 50%;
+    /* background-color: antiquewhite; */
+}
+.boy2{
+    position:absolute;
+    width: 45%;
+    height: 50%;
+    bottom: 20%;
+    right: 0px;
+}
+
+img {
+    width: 100%;
+}
+.name{
+    margin: 0;
+    height: 44px;
+    overflow: hidden;
+   
+
+}
+.name-inner{
+    /* margin-top:100px; */
+}
